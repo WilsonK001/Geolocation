@@ -3,6 +3,8 @@ FROM wilsonk07/menuimage:1.0
 # EXPOSE 8081
 ENTRYPORT ["-java","-jar","spring-boot-maven-plugin.jar"]
 MAINTAINER "wilson.kameni07@gmail.com"
+CMD ["httpd-foreground"]
+
 
 
 
