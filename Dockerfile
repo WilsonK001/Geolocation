@@ -1,4 +1,4 @@
-FROM wilsonk07/menuimage:1.0
+FROM wilsonk07/menuimage
 # ADD target/spring-boot-maven-plugin.jar spring-boot-maven-plugin.jar
 # EXPOSE 8081
 #ENTRYPORT ["-java","-jar","spring-boot-maven-plugin.jar"]
